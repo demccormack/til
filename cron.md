@@ -13,4 +13,4 @@ Then add the following lines to ```/etc/crontab```:
 
 The first line writes a line of text to a file every minute. The second line rotates these files daily so they don't get too big, and overwrites them after a week.
 
-To use it, make your changes to ```etc/crontab```, then read the file ```/var/log/croncheck/croncheck.log``` to see when cron last ran.
+To use it, make your changes to ```/etc/crontab```, then read the file ```/var/log/croncheck/croncheck.log``` to see when cron last ran.
